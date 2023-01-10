@@ -6,7 +6,9 @@
   <h2>Checkbox is NOT Checked</h2>
 {% endif %}
 
-{{ section.settings.liquid-number }}
+{% if section.settings.liquid-number <= 0 %}
+  {{ section.settings.liquid-number }}
+{% endif %}
 
 {% schema %}
   {
