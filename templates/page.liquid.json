@@ -4,7 +4,8 @@
       "type": "liquid-ref",
       "settings": {
         "liquid-ref": "Shopify Reference",
-        "liquid-checkbox": true
+        "liquid-checkbox": true,
+        "liquid-number": 100
       }
     },
     "main": {
