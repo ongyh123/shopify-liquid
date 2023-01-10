@@ -1,5 +1,11 @@
 {
   "sections": {
+    "680d3027-9061-408d-995b-897f89d82588": {
+      "type": "liquid-ref",
+      "settings": {
+        "liquid-ref": ""
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -192,15 +198,10 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
-    },
-    "680d3027-9061-408d-995b-897f89d82588": {
-      "type": "liquid-ref",
-      "settings": {
-        "liquid-ref": ""
-      }
     }
   },
   "order": [
+    "680d3027-9061-408d-995b-897f89d82588",
     "main",
     "1e60991f-dcd7-41bf-ab30-d4040f83863b",
     "764e4561-6c4c-4dd4-9713-fd195c83d67d",
@@ -209,7 +210,6 @@
     "4e35dbbb-003f-476a-9eec-b8dea6c2cc24",
     "9095fd26-d8f4-4f5b-aab8-09aa25758301",
     "3a568af8-a685-4472-b0b2-ce48f14cb054",
-    "d659dd47-2216-49cf-83a8-4ef568ae894f",
-    "680d3027-9061-408d-995b-897f89d82588"
+    "d659dd47-2216-49cf-83a8-4ef568ae894f"
   ]
 }
