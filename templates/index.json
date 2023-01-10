@@ -1,1 +1,286 @@
-{"sections":{"image_banner":{"type":"image-banner","blocks":{"heading":{"type":"heading","settings":{"heading":"The Best T-Shirts","heading_size":"h0"}},"text":{"type":"text","settings":{"text":"Get the best T-Shirts you can possibly get online","text_style":"body"}},"button":{"type":"buttons","settings":{"button_label_1":"Order Now","button_link_1":"shopify:\/\/collections\/all","button_style_secondary_1":true,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["heading","text","button"],"settings":{"image":"shopify:\/\/shop_images\/comparing-black-t-shirts-on-a-clothing-rack-in-a-sun-lit-shop.jpg","image_overlay_opacity":40,"image_height":"large","adapt_height_first_image":false,"desktop_content_position":"top-center","show_text_box":false,"desktop_content_alignment":"center","color_scheme":"background-1","mobile_content_alignment":"center","stack_images_on_mobile":false,"show_text_below":false}},"rich_text":{"type":"rich-text","blocks":{"heading":{"type":"heading","settings":{"heading":"<p>Talk about your brand<\/p>","heading_size":"h1"}},"text":{"type":"text","settings":{"text":"<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"}}},"block_order":["heading","text"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"background-1","full_width":true,"padding_top":40,"padding_bottom":0}},"2973e220-62da-4555-8b77-3729c546556e":{"type":"image-with-text","blocks":{"template--17451630526754__2973e220-62da-4555-8b77-3729c546556e-16732545988753ec54-0":{"type":"heading","settings":{"heading":"Summer Collection","heading_size":"h2"}},"template--17451630526754__2973e220-62da-4555-8b77-3729c546556e-16732545988753ec54-1":{"type":"text","settings":{"text":"<p>The Great Summer Collection<\/p>","text_style":"body"}},"template--17451630526754__2973e220-62da-4555-8b77-3729c546556e-16732545988753ec54-2":{"type":"button","settings":{"button_label":"View Collection","button_link":"shopify:\/\/collections\/summer-blue-collection"}}},"block_order":["template--17451630526754__2973e220-62da-4555-8b77-3729c546556e-16732545988753ec54-0","template--17451630526754__2973e220-62da-4555-8b77-3729c546556e-16732545988753ec54-1","template--17451630526754__2973e220-62da-4555-8b77-3729c546556e-16732545988753ec54-2"],"settings":{"image":"shopify:\/\/shop_images\/yellow-platforms-and-shapes-with-a-white-summer-sign.jpg","height":"adapt","desktop_image_width":"medium","layout":"image_first","desktop_content_position":"top","desktop_content_alignment":"left","content_layout":"no-overlap","color_scheme":"background-1","mobile_content_alignment":"left","padding_top":36,"padding_bottom":36}},"multicolumn":{"type":"multicolumn","blocks":{"column1":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/a-hand-removes-a-sweater-from-a-clothing-rack.jpg","title":"Quality T-Shirt","text":"<p>The richest catalgue of best quality t-shirts<\/p>","link_label":"","link":""}},"column2":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/a-hand-removes-a-sweater-from-a-clothing-rack.jpg","title":"Find all you seek","text":"<p>The most comprehensive selectioon to find all you need.<\/p>","link_label":"","link":""}},"column3":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/yellow-platforms-and-shapes-with-a-white-summer-sign.jpg","title":"Summer Collection","text":"<p>The great summer collection<\/p>","link_label":"","link":""}}},"block_order":["column1","column2","column3"],"settings":{"title":"","heading_size":"h1","image_width":"third","image_ratio":"adapt","columns_desktop":3,"column_alignment":"center","background_style":"none","button_label":"","button_link":"","color_scheme":"background-1","columns_mobile":"1","swipe_on_mobile":false,"padding_top":36,"padding_bottom":36}},"featured_collection":{"type":"featured-collection","settings":{"title":"Summer Collection","heading_size":"h2","description":"<p>Explore our great summer collection<\/p>","show_description":false,"description_style":"body","collection":"summer-blue-collection","products_to_show":8,"columns_desktop":4,"full_width":false,"show_view_all":true,"view_all_style":"solid","enable_desktop_slider":false,"color_scheme":"background-1","image_ratio":"adapt","show_secondary_image":true,"show_vendor":false,"show_rating":false,"enable_quick_add":true,"columns_mobile":"2","swipe_on_mobile":false,"padding_top":28,"padding_bottom":36}},"collage":{"type":"collage","blocks":{"ca8bb16d-e90a-4380-b710-871206f69c64":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/a-hand-removes-a-sweater-from-a-clothing-rack.jpg","image_padding":false}},"4d66c5e4-9d65-4c47-99e0-9ecef3270ddf":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/comparing-black-t-shirts-on-a-clothing-rack-in-a-sun-lit-shop.jpg","image_padding":false}},"cbc3df7e-f5a5-4207-a9c9-56cd1ae9f3a1":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/yellow-platforms-and-shapes-with-a-white-summer-sign.jpg","image_padding":false}}},"block_order":["ca8bb16d-e90a-4380-b710-871206f69c64","4d66c5e4-9d65-4c47-99e0-9ecef3270ddf","cbc3df7e-f5a5-4207-a9c9-56cd1ae9f3a1"],"settings":{"heading":"Multimedia collage","heading_size":"h2","desktop_layout":"left","mobile_layout":"collage","card_styles":"product-card-wrapper","color_scheme":"background-1","padding_top":36,"padding_bottom":36}},"2da753e7-34d0-4c69-b264-e29785d4ce21":{"type":"featured-collection","settings":{"title":"Featured collection","heading_size":"h1","description":"","show_description":false,"description_style":"body","collection":"frontpage","products_to_show":4,"columns_desktop":4,"full_width":false,"show_view_all":true,"view_all_style":"solid","enable_desktop_slider":false,"color_scheme":"background-1","image_ratio":"square","show_secondary_image":false,"show_vendor":false,"show_rating":false,"enable_quick_add":false,"columns_mobile":"2","swipe_on_mobile":false,"padding_top":36,"padding_bottom":36}}},"order":["image_banner","rich_text","2973e220-62da-4555-8b77-3729c546556e","multicolumn","featured_collection","collage","2da753e7-34d0-4c69-b264-e29785d4ce21"]}
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Best T-Shirts",
+            "heading_size": "h0"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "Get the best T-Shirts you can possibly get online",
+            "text_style": "body"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Order Now",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/comparing-black-t-shirts-on-a-clothing-rack-in-a-sun-lit-shop.jpg",
+        "image_overlay_opacity": 40,
+        "image_height": "large",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "top-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "rich_text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "2973e220-62da-4555-8b77-3729c546556e": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--17451630526754__2973e220-62da-4555-8b77-3729c546556e-16732545988753ec54-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Summer Collection",
+            "heading_size": "h2"
+          }
+        },
+        "template--17451630526754__2973e220-62da-4555-8b77-3729c546556e-16732545988753ec54-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The Great Summer Collection<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--17451630526754__2973e220-62da-4555-8b77-3729c546556e-16732545988753ec54-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "View Collection",
+            "button_link": "shopify:\/\/collections\/summer-blue-collection"
+          }
+        }
+      },
+      "block_order": [
+        "template--17451630526754__2973e220-62da-4555-8b77-3729c546556e-16732545988753ec54-0",
+        "template--17451630526754__2973e220-62da-4555-8b77-3729c546556e-16732545988753ec54-1",
+        "template--17451630526754__2973e220-62da-4555-8b77-3729c546556e-16732545988753ec54-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/yellow-platforms-and-shapes-with-a-white-summer-sign.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn": {
+      "type": "multicolumn",
+      "blocks": {
+        "column1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/a-hand-removes-a-sweater-from-a-clothing-rack.jpg",
+            "title": "Quality T-Shirt",
+            "text": "<p>The richest catalgue of best quality t-shirts<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/a-hand-removes-a-sweater-from-a-clothing-rack.jpg",
+            "title": "Find all you seek",
+            "text": "<p>The most comprehensive selectioon to find all you need.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/yellow-platforms-and-shapes-with-a-white-summer-sign.jpg",
+            "title": "Summer Collection",
+            "text": "<p>The great summer collection<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column1",
+        "column2",
+        "column3"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Summer Collection",
+        "heading_size": "h2",
+        "description": "<p>Explore our great summer collection<\/p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "summer-blue-collection",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 36
+      }
+    },
+    "collage": {
+      "type": "collage",
+      "blocks": {
+        "ca8bb16d-e90a-4380-b710-871206f69c64": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/a-hand-removes-a-sweater-from-a-clothing-rack.jpg",
+            "image_padding": false
+          }
+        },
+        "4d66c5e4-9d65-4c47-99e0-9ecef3270ddf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/comparing-black-t-shirts-on-a-clothing-rack-in-a-sun-lit-shop.jpg",
+            "image_padding": false
+          }
+        },
+        "cbc3df7e-f5a5-4207-a9c9-56cd1ae9f3a1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/yellow-platforms-and-shapes-with-a-white-summer-sign.jpg",
+            "image_padding": false
+          }
+        }
+      },
+      "block_order": [
+        "ca8bb16d-e90a-4380-b710-871206f69c64",
+        "4d66c5e4-9d65-4c47-99e0-9ecef3270ddf",
+        "cbc3df7e-f5a5-4207-a9c9-56cd1ae9f3a1"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "heading_size": "h2",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "2da753e7-34d0-4c69-b264-e29785d4ce21": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "frontpage",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "rich_text",
+    "2973e220-62da-4555-8b77-3729c546556e",
+    "multicolumn",
+    "featured_collection",
+    "collage",
+    "2da753e7-34d0-4c69-b264-e29785d4ce21"
+  ]
+}
