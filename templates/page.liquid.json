@@ -3,7 +3,8 @@
     "680d3027-9061-408d-995b-897f89d82588": {
       "type": "liquid-ref",
       "settings": {
-        "liquid-ref": ""
+        "liquid-ref": "",
+        "liquid-checkbox": true
       }
     },
     "main": {
