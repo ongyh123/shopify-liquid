@@ -36,13 +36,11 @@
       "previous": "Προηγούμενη σελίδα"
     },
     "search": {
-      "search": "Αναζήτηση",
-      "reset": "Διαγραφή όρου αναζήτησης"
+      "search": "Αναζήτηση"
     },
     "cart": {
       "view": "Προβολή του καλαθιού μου ({{ count }})",
-      "item_added": "Το στοιχείο προστέθηκε στο καλάθι σας",
-      "view_empty_cart": "Προβολή του καλαθιού μου"
+      "item_added": "Το στοιχείο προστέθηκε στο καλάθι σας"
     },
     "share": {
       "copy_to_clipboard": "Αντιγραφή συνδέσμου",
@@ -152,16 +150,7 @@
       "include_taxes": "Ο φόρος συμπεριλαμβάνεται.",
       "shipping_policy_html": "Τα <a href=\"{{ link }}\">έξοδα αποστολής</a> υπολογίζονται κατά την ολοκλήρωση της αγοράς.",
       "choose_options": "Ορίστε επιλογές",
-      "choose_product_options": "Ορίστε επιλογές για {{ product_name }}",
-      "value_unavailable": "{{ option_value }} - Μη διαθέσιμο",
-      "variant_sold_out_or_unavailable": "Η παραλλαγή εξαντλήθηκε ή δεν είναι διαθέσιμη",
-      "inventory_in_stock": "Σε απόθεμα",
-      "inventory_in_stock_show_count": "{{ quantity }} σε απόθεμα",
-      "inventory_low_stock": "Χαμηλό απόθεμα",
-      "inventory_low_stock_show_count": "Χαμηλό απόθεμα: Απομένουν {{ quantity }}",
-      "inventory_out_of_stock": "Χωρίς απόθεμα",
-      "inventory_out_of_stock_continue_selling": "Σε απόθεμα",
-      "sku": "SKU"
+      "choose_product_options": "Ορίστε επιλογές για {{ product_name }}"
     },
     "modal": {
       "label": "Συλλογή μέσων"

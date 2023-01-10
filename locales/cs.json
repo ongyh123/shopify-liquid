@@ -36,13 +36,11 @@
       "previous": "Předchozí stránka"
     },
     "search": {
-      "search": "Hledání",
-      "reset": "Vymazat hledaný termín"
+      "search": "Hledání"
     },
     "cart": {
       "view": "Zobrazit košík ({{ count }})",
-      "item_added": "Položka byla přidána do košíku",
-      "view_empty_cart": "Zobrazit můj košík"
+      "item_added": "Položka byla přidána do košíku"
     },
     "share": {
       "copy_to_clipboard": "Kopírovat odkaz",
@@ -154,16 +152,7 @@
       "include_taxes": "Včetně daní.",
       "shipping_policy_html": "<a href=\"{{ link }}\">Poštovné</a> se vypočítá na pokladně.",
       "choose_options": "Výběr možností",
-      "choose_product_options": "Zvolte možnosti pro: {{ product_name }}",
-      "value_unavailable": "{{ option_value }} – není k dispozici",
-      "variant_sold_out_or_unavailable": "Vyprodaná nebo nedostupná varianta",
-      "inventory_in_stock": "Skladem",
-      "inventory_in_stock_show_count": "{{ quantity }} skladem",
-      "inventory_low_stock": "Skladové zásoby docházejí",
-      "inventory_low_stock_show_count": "Skladové zásoby docházejí, zbývající množství: {{ quantity }}",
-      "inventory_out_of_stock": "Není skladem",
-      "sku": "SKU",
-      "inventory_out_of_stock_continue_selling": "Skladem"
+      "choose_product_options": "Zvolte možnosti pro: {{ product_name }}"
     },
     "modal": {
       "label": "Galerie multimédií"

@@ -36,13 +36,11 @@
       "previous": "Poprzednia strona"
     },
     "search": {
-      "search": "Szukaj",
-      "reset": "Wyczyść szukany termin"
+      "search": "Szukaj"
     },
     "cart": {
       "view": "Pokaż koszyk ({{ count }})",
-      "item_added": "Pozycję dodano do koszyka",
-      "view_empty_cart": "Wyświetl mój koszyk"
+      "item_added": "Pozycję dodano do koszyka"
     },
     "share": {
       "copy_to_clipboard": "Kopiuj link",
@@ -110,7 +108,7 @@
     "product": {
       "add_to_cart": "Dodaj do koszyka",
       "description": "Opis",
-      "on_sale": "W promocji",
+      "on_sale": "Sprzedaż",
       "product_variants": "Warianty produktów",
       "share": "Udostępnij ten produkt",
       "sold_out": "Wyprzedane",
@@ -154,16 +152,7 @@
       "include_taxes": "Z wliczonym podatkiem.",
       "shipping_policy_html": "<a href=\"{{ link }}\">Koszt wysyłki</a> obliczony przy realizacji zakupu.",
       "choose_options": "Wybierz opcje",
-      "choose_product_options": "Wybierz opcje dla {{ product_name }}",
-      "value_unavailable": "{{ option_value }} - niedostępny",
-      "variant_sold_out_or_unavailable": "Wariant wyprzedany lub niedostępny",
-      "inventory_in_stock": "W magazynie",
-      "inventory_in_stock_show_count": "{{ quantity }} w magazynie",
-      "inventory_low_stock": "Niski poziom zapasów",
-      "inventory_low_stock_show_count": "Niski poziom zapasów: pozostało {{ quantity }}",
-      "inventory_out_of_stock": "Brak na stanie",
-      "inventory_out_of_stock_continue_selling": "W magazynie",
-      "sku": "SKU"
+      "choose_product_options": "Wybierz opcje dla {{ product_name }}"
     },
     "modal": {
       "label": "Galeria multimediów"

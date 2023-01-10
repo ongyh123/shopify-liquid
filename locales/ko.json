@@ -36,13 +36,11 @@
       "previous": "이전 페이지"
     },
     "search": {
-      "search": "검색",
-      "reset": "검색어 지우기"
+      "search": "검색"
     },
     "cart": {
       "view": "내 카트 보기({{ count }}개)",
-      "item_added": "카트에 추가된 품목",
-      "view_empty_cart": "내 카트 보기"
+      "item_added": "카트에 추가된 품목"
     },
     "share": {
       "copy_to_clipboard": "링크 복사",
@@ -152,16 +150,7 @@
       "include_taxes": "세금이 포함됩니다.",
       "shipping_policy_html": "<a href=\"{{ link }}\">배송료</a>는 결제 시 계산됩니다.",
       "choose_options": "옵션 선택하기",
-      "choose_product_options": "{{ product_name }}의 옵션 선택",
-      "value_unavailable": "{{ option_value }} - 사용할 수 없음",
-      "variant_sold_out_or_unavailable": "품절이거나 구매할 수 없는 이형 상품",
-      "inventory_in_stock": "재고 있음",
-      "inventory_in_stock_show_count": "재고 {{ quantity }}개",
-      "inventory_low_stock": "재고 부족",
-      "inventory_low_stock_show_count": "재고 부족: {{ quantity }}개 남음",
-      "inventory_out_of_stock": "품절",
-      "inventory_out_of_stock_continue_selling": "재고 있음",
-      "sku": "SKU(재고 관리 코드)"
+      "choose_product_options": "{{ product_name }}의 옵션 선택"
     },
     "modal": {
       "label": "미디어 갤러리"

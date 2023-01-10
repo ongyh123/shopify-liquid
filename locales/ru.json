@@ -36,13 +36,11 @@
       "previous": "Предыдущая страница"
     },
     "search": {
-      "search": "Поиск",
-      "reset": "Удалить поисковый запрос"
+      "search": "Поиск"
     },
     "cart": {
       "view": "Просмотреть корзину ({{ count }})",
-      "item_added": "Товар добавлен в корзину.",
-      "view_empty_cart": "Просмотреть корзину"
+      "item_added": "Товар добавлен в корзину."
     },
     "share": {
       "copy_to_clipboard": "Копировать ссылку",
@@ -154,16 +152,7 @@
       "include_taxes": "Сумма налога включена.",
       "shipping_policy_html": "<a href=\"{{ link }}\">Стоимость доставки</a> рассчитывается при оформлении заказа.",
       "choose_options": "Выберите варианты",
-      "choose_product_options": "Выберите варианты для {{ product_name }}",
-      "value_unavailable": "{{ option_value }} — Недоступно",
-      "variant_sold_out_or_unavailable": "Вариант распродан или недоступен",
-      "inventory_in_stock": "В наличии",
-      "inventory_in_stock_show_count": "В наличии: {{ quantity }}",
-      "inventory_low_stock": "Заканчивается",
-      "inventory_low_stock_show_count": "Заканчивается. Осталось: {{ quantity }}",
-      "inventory_out_of_stock": "Нет в наличии",
-      "inventory_out_of_stock_continue_selling": "В наличии",
-      "sku": "Артикул"
+      "choose_product_options": "Выберите варианты для {{ product_name }}"
     },
     "modal": {
       "label": "Галерея мультимедиа"

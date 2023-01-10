@@ -36,13 +36,11 @@
       "previous": "Ankstesnis puslapis"
     },
     "search": {
-      "search": "Ieškoti",
-      "reset": "Išvalyti paieškos terminą"
+      "search": "Ieškoti"
     },
     "cart": {
       "view": "Peržiūrėti mano krepšelį ({{ count }})",
-      "item_added": "Prekė įdėta į jūsų krepšelį",
-      "view_empty_cart": "Peržiūrėti krepšelį"
+      "item_added": "Prekė įdėta į jūsų krepšelį"
     },
     "share": {
       "copy_to_clipboard": "Kopijuoti nuorodą",
@@ -154,16 +152,7 @@
       "include_taxes": "Mokesčiai įtraukti.",
       "shipping_policy_html": "<a href=\"{{ link }}\">Siuntimo išlaidos</a> apskaičiuojamos atsiskaitant.",
       "choose_options": "Rinktis variantus",
-      "choose_product_options": "Rinktis {{ product_name }} variantus",
-      "value_unavailable": "{{ option_value }} – neturime",
-      "variant_sold_out_or_unavailable": "Prekė išparduota arba jos neturime",
-      "inventory_in_stock": "Yra sandėlyje",
-      "inventory_in_stock_show_count": "{{ quantity }} vnt. sandėlyje",
-      "inventory_low_stock": "Atsargos senka",
-      "inventory_low_stock_show_count": "Atsargos senka: liko {{ quantity }} vnt.",
-      "inventory_out_of_stock": "Neturime",
-      "inventory_out_of_stock_continue_selling": "Yra sandėlyje",
-      "sku": "SKU kodas"
+      "choose_product_options": "Rinktis {{ product_name }} variantus"
     },
     "modal": {
       "label": "Medijų galerija"

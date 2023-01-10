@@ -36,13 +36,11 @@
       "previous": "Edellinen sivu"
     },
     "search": {
-      "search": "Hae",
-      "reset": "Tyhjennä hakutermi"
+      "search": "Hae"
     },
     "cart": {
       "view": "Näytä ostoskori ({{ count }})",
-      "item_added": "Tuote lisätty ostoskoriisi",
-      "view_empty_cart": "Näytä ostoskorini"
+      "item_added": "Tuote lisätty ostoskoriisi"
     },
     "share": {
       "copy_to_clipboard": "Kopioi linkki",
@@ -152,16 +150,7 @@
       "include_taxes": "Sisältää veron.",
       "shipping_policy_html": "<a href=\"{{ link }}\">Toimituskulut</a> lasketaan kassalla.",
       "choose_options": "Valitse vaihtoehdot",
-      "choose_product_options": "Valitse vaihtoehtoja tuotteelle {{ product_name }}",
-      "value_unavailable": "{{ option_value }} – Ei ole käytettävissä",
-      "variant_sold_out_or_unavailable": "Versio on loppuunmyyty tai ei saatavilla",
-      "inventory_in_stock": "Varastossa",
-      "inventory_in_stock_show_count": "{{ quantity }} varastossa",
-      "inventory_low_stock": "Varasto vähissä",
-      "inventory_low_stock_show_count": "Varasto vähissä: {{ quantity }} jäljellä",
-      "inventory_out_of_stock": "Loppunut varastosta",
-      "sku": "SKU-koodi",
-      "inventory_out_of_stock_continue_selling": "Varastossa"
+      "choose_product_options": "Valitse vaihtoehtoja tuotteelle {{ product_name }}"
     },
     "modal": {
       "label": "Mediagalleria"
@@ -376,8 +365,8 @@
       "none": "Et ole vielä tehnyt tilauksia."
     },
     "recover_password": {
-      "title": "Nollaa salasanasi",
-      "subtext": "Lähetämme sinulle sähköpostiviestin salasanan nollaamiseksi",
+      "title": "Palauta salasanasi",
+      "subtext": "Lähetämme sinulle sähköpostiviestin salasanan palauttamiseksi",
       "success": "Olemme lähettäneet sinulle sähköpostiviestin, jossa on salasanan päivityslinkki."
     },
     "register": {
@@ -389,7 +378,7 @@
       "submit": "Luo"
     },
     "reset_password": {
-      "title": "Nollaa tilin salasana",
+      "title": "Palauta tilin salasana",
       "subtext": "Syötä uusi salasana",
       "password": "Salasana",
       "password_confirm": "Vahvista salasana",

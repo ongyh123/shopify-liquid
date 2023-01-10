@@ -1,20 +1,21 @@
-class PredictiveSearch extends SearchForm {
+class PredictiveSearch extends HTMLElement {
   constructor() {
     super();
     this.cachedResults = {};
+    this.input = this.querySelector('input[type="search"]');
     this.predictiveSearchResults = this.querySelector('[data-predictive-search]');
-    this.allPredictiveSearchInstances =
-      document.querySelectorAll('predictive-search');
     this.isOpen = false;
-    this.abortController = new AbortController();
-    this.searchTerm = '';
 
     this.setupEventListeners();
   }
 
   setupEventListeners() {
-    this.input.form.addEventListener('submit', this.onFormSubmit.bind(this));
+    const form = this.querySelector('form.search');
+    form.addEventListener('submit', this.onFormSubmit.bind(this));
 
+    this.input.addEventListener('input', debounce((event) => {
+      this.onChange(event);
+    }, 300).bind(this));
     this.input.addEventListener('focus', this.onFocus.bind(this));
     this.addEventListener('focusout', this.onFocusOut.bind(this));
     this.addEventListener('keyup', this.onKeyup.bind(this));
@@ -26,43 +27,29 @@ class PredictiveSearch extends SearchForm {
   }
 
   onChange() {
-    super.onChange();
-    this.searchTerm = this.getQuery();
+    const searchTerm = this.getQuery();
 
-    if (!this.searchTerm.length) {
+    if (!searchTerm.length) {
       this.close(true);
       return;
     }
 
-    this.getSearchResults(this.searchTerm);
+    this.getSearchResults(searchTerm);
   }
 
   onFormSubmit(event) {
     if (!this.getQuery().length || this.querySelector('[aria-selected="true"] a')) event.preventDefault();
   }
 
-  onFormReset(event) {
-    super.onFormReset(event);
-    if (super.shouldResetForm()) {
-      this.searchTerm = '';
-      this.abortController.abort();
-      this.abortController = new AbortController();
-      this.closeResults(true);
-    }
-  }
-
   onFocus() {
-    const currentSearchTerm = this.getQuery();
+    const searchTerm = this.getQuery();
 
-    if (!currentSearchTerm.length) return;
+    if (!searchTerm.length) return;
 
-    if (this.searchTerm !== currentSearchTerm) {
-      // Search term was changed from other search input, treat it as a user change
-      this.onChange();
-    } else if (this.getAttribute('results') === 'true') {
+    if (this.getAttribute('results') === 'true') {
       this.open();
     } else {
-      this.getSearchResults(this.searchTerm);
+      this.getSearchResults(searchTerm);
     }
   }
 
@@ -141,10 +128,7 @@ class PredictiveSearch extends SearchForm {
       return;
     }
 
-    fetch(
-      `${routes.predictive_search_url}?q=${encodeURIComponent(searchTerm)}&${encodeURIComponent('resources[type]')}=product&${encodeURIComponent('resources[limit]')}=4&section_id=predictive-search`,
-      {signal: this.abortController.signal}
-    )
+    fetch(`${routes.predictive_search_url}?q=${encodeURIComponent(searchTerm)}&${encodeURIComponent('resources[type]')}=product&${encodeURIComponent('resources[limit]')}=4&section_id=predictive-search`)
       .then((response) => {
         if (!response.ok) {
           var error = new Error(response.status);
@@ -156,19 +140,10 @@ class PredictiveSearch extends SearchForm {
       })
       .then((text) => {
         const resultsMarkup = new DOMParser().parseFromString(text, 'text/html').querySelector('#shopify-section-predictive-search').innerHTML;
-        // Save bandwidth keeping the cache in all instances synced
-        this.allPredictiveSearchInstances.forEach(
-          (predictiveSearchInstance) => {
-            predictiveSearchInstance.cachedResults[queryKey] = resultsMarkup;
-          }
-        );
+        this.cachedResults[queryKey] = resultsMarkup;
         this.renderSearchResults(resultsMarkup);
       })
       .catch((error) => {
-        if (error?.code === 20) {
-          // Code 20 means the call was aborted
-          return;
-        }
         this.close();
         throw error;
       });
@@ -217,25 +192,22 @@ class PredictiveSearch extends SearchForm {
   }
 
   close(clearSearchTerm = false) {
-    this.closeResults(clearSearchTerm);
-    this.isOpen = false;
-  }
-
-  closeResults(clearSearchTerm = false) {
     if (clearSearchTerm) {
       this.input.value = '';
       this.removeAttribute('results');
     }
+
     const selected = this.querySelector('[aria-selected="true"]');
 
     if (selected) selected.setAttribute('aria-selected', false);
 
     this.input.setAttribute('aria-activedescendant', '');
-    this.removeAttribute('loading');
     this.removeAttribute('open');
     this.input.setAttribute('aria-expanded', false);
     this.resultsMaxHeight = false
     this.predictiveSearchResults.removeAttribute('style');
+
+    this.isOpen = false;
   }
 }
 

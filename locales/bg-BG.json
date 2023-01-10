@@ -36,13 +36,11 @@
       "previous": "Предишна страница"
     },
     "search": {
-      "search": "Търсене",
-      "reset": "Изчисти думата за търсене"
+      "search": "Търсене"
     },
     "cart": {
       "view": "Покажи количката ми ({{ count }})",
-      "item_added": "Артикулът е добавен в количката",
-      "view_empty_cart": "Покажи количката"
+      "item_added": "Артикулът е добавен в количката"
     },
     "share": {
       "copy_to_clipboard": "Копиране на връзката",
@@ -152,16 +150,7 @@
       "include_taxes": "С включени данъци.",
       "shipping_policy_html": "<a href=\"{{ link }}\">Доставката</a> се изчислява при плащане.",
       "choose_options": "Изберете опции",
-      "choose_product_options": "Изберете опции за {{ product_name }}",
-      "value_unavailable": "{{ option_value }} – неналично",
-      "variant_sold_out_or_unavailable": "Вариантът е изчерпан или неналичен.",
-      "inventory_in_stock": "В наличност",
-      "inventory_in_stock_show_count": "{{ quantity }} в наличност",
-      "inventory_low_stock": "Ниски наличности",
-      "inventory_low_stock_show_count": "Ниски наличности: остават {{ quantity }}",
-      "inventory_out_of_stock": "Изчерпано количество",
-      "inventory_out_of_stock_continue_selling": "В наличност",
-      "sku": "SKU"
+      "choose_product_options": "Изберете опции за {{ product_name }}"
     },
     "modal": {
       "label": "Мултимедийна галерия"

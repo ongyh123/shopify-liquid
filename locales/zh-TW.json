@@ -36,13 +36,11 @@
       "previous": "上一頁"
     },
     "search": {
-      "search": "搜尋",
-      "reset": "清除搜尋詞彙"
+      "search": "搜尋"
     },
     "cart": {
       "view": "檢視我的購物車 ({{ count }})",
-      "item_added": "商品已加入購物車",
-      "view_empty_cart": "檢視我的購物車"
+      "item_added": "商品已加入購物車"
     },
     "share": {
       "copy_to_clipboard": "複製連結",
@@ -108,7 +106,7 @@
     "product": {
       "add_to_cart": "加入購物車",
       "description": "說明",
-      "on_sale": "特價",
+      "on_sale": "銷售額",
       "product_variants": "產品子類",
       "quantity": {
         "label": "數量",
@@ -152,16 +150,7 @@
       "include_taxes": "內含稅金。",
       "shipping_policy_html": "結帳時計算<a href=\"{{ link }}\">運費</a>。",
       "choose_options": "選擇選項",
-      "choose_product_options": "選擇 {{ product_name }} 的選項",
-      "value_unavailable": "{{ option_value }} (無法供貨)",
-      "variant_sold_out_or_unavailable": "子類已售罄或無法供貨",
-      "inventory_in_stock": "有庫存",
-      "inventory_in_stock_show_count": "有 {{ quantity }} 件庫存",
-      "inventory_low_stock": "庫存不足",
-      "inventory_low_stock_show_count": "庫存不足：剩餘 {{ quantity }} 件",
-      "inventory_out_of_stock": "無庫存",
-      "inventory_out_of_stock_continue_selling": "有庫存",
-      "sku": "存貨單位 (SKU)"
+      "choose_product_options": "選擇 {{ product_name }} 的選項"
     },
     "modal": {
       "label": "媒體庫"

@@ -36,13 +36,11 @@
       "previous": "Página anterior"
     },
     "search": {
-      "search": "Pesquisar",
-      "reset": "Limpar termo de pesquisa"
+      "search": "Pesquisar"
     },
     "cart": {
       "view": "Ver o carrinho ({{ count }})",
-      "item_added": "Item adicionado ao carrinho",
-      "view_empty_cart": "Ver meu carrinho"
+      "item_added": "Item adicionado ao carrinho"
     },
     "share": {
       "copy_to_clipboard": "Copiar link",
@@ -153,16 +151,7 @@
       "include_taxes": "Tributo incluído.",
       "shipping_policy_html": "<a href=\"{{ link }}\">Frete</a> calculado no checkout.",
       "choose_options": "Escolher opções",
-      "choose_product_options": "Escolha opções para {{ product_name }}",
-      "value_unavailable": "{{ option_value }} – indisponível",
-      "variant_sold_out_or_unavailable": "Variante esgotada ou indisponível",
-      "inventory_in_stock": "Em estoque",
-      "inventory_in_stock_show_count": "{{ quantity }} em estoque",
-      "inventory_low_stock": "Estoque baixo",
-      "inventory_low_stock_show_count": "Estoque baixo: {{ quantity }} restante(s)",
-      "inventory_out_of_stock": "Fora de estoque",
-      "inventory_out_of_stock_continue_selling": "Em estoque",
-      "sku": "SKU"
+      "choose_product_options": "Escolha opções para {{ product_name }}"
     },
     "modal": {
       "label": "Galeria de mídia"
