@@ -216,7 +216,7 @@
     "5d744c80-c21e-478f-8749-afba3875b34b": {
       "type": "call-to-action",
       "settings": {
-        "text-box": "Title",
+        "text-box": "Click to Learn More",
         "link": "",
         "linktext": "Click here"
       }
