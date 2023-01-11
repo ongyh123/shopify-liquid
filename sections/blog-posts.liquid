@@ -1,4 +1,4 @@
-{{ section.settings.posts-range }}
+{% comment %} {{ section.settings.posts-range }} {% endcomment %}
 
 {% assign blog = section.settings.new-blog %}
 
@@ -6,7 +6,7 @@
 
   {% comment %} Display articles based on range {% endcomment %}
 
-  {% for article in blog.articles %}
+  {% for article in blog.articles limit: section.settings.posts-range %}
     <a href="{{ article.url }}">
       <img src="{{ article.image | img_url: '500x' }}" />
       <br/>
