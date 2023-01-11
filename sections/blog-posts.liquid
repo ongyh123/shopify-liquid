@@ -2,10 +2,15 @@
 
 {% assign blog = section.settings.new-blog %}
 
-{{ blog.articles_count }}
+  {% unless blog.articles_count == 0 %}
 
-{% unless blog.articles_count == 0 %}
-  Thre are at least 1 blog post published on this website
+  {% comment %} Display articles based on range {% endcomment %}
+
+  {% for article in blog.articles %}
+    {{ article.image }}
+    {{ article.title }}
+  {% endfor %}
+
 {% endunless %}
 
 {% schema %}
