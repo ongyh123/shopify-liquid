@@ -220,6 +220,12 @@
         "link": "",
         "linktext": "Click here"
       }
+    },
+    "c6f816d4-82e4-4ff0-9f4f-6a36284be421": {
+      "type": "social-media",
+      "settings": {
+        "social-nav": "Follow us on Social Media"
+      }
     }
   },
   "order": [
@@ -234,6 +240,7 @@
     "9095fd26-d8f4-4f5b-aab8-09aa25758301",
     "3a568af8-a685-4472-b0b2-ce48f14cb054",
     "d659dd47-2216-49cf-83a8-4ef568ae894f",
-    "5d744c80-c21e-478f-8749-afba3875b34b"
+    "5d744c80-c21e-478f-8749-afba3875b34b",
+    "c6f816d4-82e4-4ff0-9f4f-6a36284be421"
   ]
 }
