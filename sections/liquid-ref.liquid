@@ -33,7 +33,12 @@ Option 3 Selected
 <h1>Range</h1>
 {{ section.settings.liquid-range }}
 
+<br/>
+
 <h1>Select</h1>
+{{ section.settings.liquid-select }}
+
+<br/>
 
 <h1>Text Area</h1>
 
@@ -82,6 +87,27 @@ Option 3 Selected
       "max": 12,
       "step":3,
       "default": 3
+    },
+    {
+      "id":"liquid-select",
+      "type": "select",
+      "label":"Select",
+      "options":[
+      {
+        "value": "Option-1" ,
+        "label": "Option-1"
+      },
+      {
+        "value": "Option-2" ,
+        "label": "Option-2"
+      },
+      {
+        "value": "Option-3" ,
+        "label": "Option-3"
+      }
+    ],
+    "default":"Option-2"
+
     }
   ],
     "templates": ["index", "page","product"],
