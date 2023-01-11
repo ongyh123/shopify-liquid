@@ -14,8 +14,13 @@
 {% endif %}
 
 <h1>Radio</h1>
-{{section.settings.liquid-radio}}
-
+{% if section.settings.iquid-radio =='option-1' %}
+Option 1 Selected
+{% elsif section.settings.iquid-radio =='option-2' %}
+Option 2 Selected
+{% else %}
+Option 3 Selected
+{% endif %}
 <h1>Range</h1>
 
 <h1>Select</h1>
