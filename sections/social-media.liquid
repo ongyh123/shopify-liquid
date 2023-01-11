@@ -6,16 +6,18 @@
   <h2>{{ section.settings.social-nav }}</h2>
 
   <ul class="social-media-menu">
-    <li>
-      <a
-        href="https://facebook.com/shopify"
-        target="_blank"
-        rel="noopener"
-        aria-label="Facebook"
-        aria-describedby="new-window-0">
-        <span class="shopify-social-icon-facebook-circle" aria-hidden="true"></span>
-      </a>
-    </li>
+    {% for block in section.blocks %}
+      <li>
+        <a
+          href="{{ blocks.settings.social-url }}"
+          target="_blank"
+          rel="noopener"
+          aria-label="{{ blocks.settings.social-name }}"
+          aria-describedby="new-window-0">
+          <span class="shopify-social-icon-{{ blocks.settings.social-name | lowercase }}-circle" aria-hidden="true"></span>
+        </a>
+      </li>
+    {% endfor %}
   </ul>
 </div>
 
