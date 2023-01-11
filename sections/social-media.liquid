@@ -11,12 +11,12 @@
     {% for block in section.blocks %}
       <li>
         <a
-          href="{{ blocks.settings.social-url }}"
+          href="{{ block.settings.social-url }}"
           target="_blank"
           rel="noopener"
-          aria-label="{{ blocks.settings.social-name }}"
+          aria-label="{{ block.settings.social-name }}"
           aria-describedby="new-window-0">
-          <span class="shopify-social-icon-{{ blocks.settings.social-name | downcase }}-circle" aria-hidden="false"></span>
+          <span class="shopify-social-icon-{{ block.settings.social-name | downcase }}-circle" aria-hidden="false"></span>
         </a>
       </li>
     {% endfor %}
