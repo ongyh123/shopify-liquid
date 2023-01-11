@@ -1,5 +1,13 @@
 {{ section.settings.posts-range }}
 
+{% assign blog = section.settings.new-blog %}
+
+{{ blog.articles_count }}
+
+{% unless blog.articles_count == 0 %}
+  Thre are at least 1 blog post published on this website
+{% endunless %}
+
 {% schema %}
   {
     "name": "New Blog Posts",
