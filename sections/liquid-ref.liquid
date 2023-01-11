@@ -1,14 +1,25 @@
-<h1>{{ section.settings.liquid-ref }}</h1>
+<h1>Text</h1>
+<h2>{{ section.settings.liquid-ref }}</h2>
 
+<h1>Checkbox</h1>
 {% if section.settings.liquid-checkbox == true %}
   <h2>Checkbox is Checked</h2>
 {% else %}
   <h2>Checkbox is NOT Checked</h2>
 {% endif %}
 
+<h1>Number</h1>
 {% if section.settings.liquid-number > 0 %}
   {{ section.settings.liquid-number }}
 {% endif %}
+
+<h1>Radio</h1>
+
+<h1>Range</h1>
+
+<h1>Select</h1>
+
+<h1>Text Area</h1>
 
 {% schema %}
   {
