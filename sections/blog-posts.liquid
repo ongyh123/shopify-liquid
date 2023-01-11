@@ -9,6 +9,7 @@
   {% for article in blog.articles %}
     <a href="{{ article.url }}">
       <img src="{{ article.image | img_url: '500x' }}" />
+      <br/>
       {{ article.title }}
     </a>
   {% endfor %}
