@@ -7,14 +7,16 @@
   {% comment %} Display articles based on range {% endcomment %}
 
   {% for article in blog.articles limit: section.settings.posts-range %}
-    <a href="{{ article.url }}">
-      <img src="{{ article.image | img_url: '500x' }}" />
+    <div class="grid_item medium-up--one-third">
+      <a href="{{ article.url }}">
+        <img src="{{ article.image | img_url: '500x' }}" />
+        <br/>
+      </a>
+      <a href="{{ article.url }}">
+        {{ article.title }}
+      </a>
       <br/>
-    </a>
-    <a href="{{ article.url }}">
-      {{ article.title }}
-    </a>
-    <br/>
+    </div>
   {% endfor %}
 
 {% endunless %}
