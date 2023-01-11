@@ -3,7 +3,7 @@
     "cb74054e-89db-4dcb-9498-72c9fc977551": {
       "type": "blog-posts",
       "settings": {
-        "posts-range": 3,
+        "posts-range": 6,
         "new-blog": "news"
       }
     },
