@@ -31,6 +31,7 @@ Option 3 Selected
 <br/>
 
 <h1>Range</h1>
+{{ section.settings.liquid-range }}
 
 <h1>Select</h1>
 
@@ -72,7 +73,17 @@ Option 3 Selected
         "label": "Option-3"
       }
     ]
-    }],
+    },
+    {
+      "id":"liquid-range",
+      "type": "range",
+      "label":"Range",
+      "min": 3,
+      "max": 12,
+      "step":3,
+      "default": 3
+    }
+  ],
     "templates": ["index", "page","product"],
     "presets":[
       {
