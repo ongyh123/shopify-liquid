@@ -212,6 +212,14 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "5d744c80-c21e-478f-8749-afba3875b34b": {
+      "type": "call-to-action",
+      "settings": {
+        "text-box": "Click to Learn More",
+        "link": "",
+        "linktext": "Click here"
+      }
     }
   },
   "order": [
@@ -225,6 +233,7 @@
     "4e35dbbb-003f-476a-9eec-b8dea6c2cc24",
     "9095fd26-d8f4-4f5b-aab8-09aa25758301",
     "3a568af8-a685-4472-b0b2-ce48f14cb054",
-    "d659dd47-2216-49cf-83a8-4ef568ae894f"
+    "d659dd47-2216-49cf-83a8-4ef568ae894f",
+    "5d744c80-c21e-478f-8749-afba3875b34b"
   ]
 }
