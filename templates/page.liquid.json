@@ -223,6 +223,18 @@
     },
     "c6f816d4-82e4-4ff0-9f4f-6a36284be421": {
       "type": "social-media",
+      "blocks": {
+        "38e1e407-af5b-4ca8-a18e-467de4698afc": {
+          "type": "Social-network",
+          "settings": {
+            "social-url": "https:\/\/www.instagram.com\/",
+            "social-name": "Instagram"
+          }
+        }
+      },
+      "block_order": [
+        "38e1e407-af5b-4ca8-a18e-467de4698afc"
+      ],
       "settings": {
         "social-nav": "Follow us on Social Media"
       }
