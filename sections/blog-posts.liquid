@@ -1,17 +1,24 @@
-{%  schema  %} 
-{
-    "name":,
-    "settings":[
-        {
+{{ section.settings.liquid-range }}
 
-        }
+{% schema %}
+  {
+    "name": "Blog Posts",
+    "settings": [
+      {
+        "id": "liquid-range",
+        "type": "range",
+        "label": "Range",
+        "min": 3,
+        "max": 12,
+        "step": 3,
+        "default": 3
+      }
     ],
-    "presets":[
-        {
-            "name":,
-            "cataegory":
-        }
+    "presets": [
+      {
+        "name": "Blog Posts",
+        "cataegory": "Posts"
+      }
     ]
-}
-
-{% endschema %} %}
+  }
+{% endschema %}
