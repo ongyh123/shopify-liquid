@@ -7,7 +7,7 @@
   {% comment %} Display articles based on range {% endcomment %}
 
   {% for article in blog.articles %}
-    {{ article.image }}
+    <img src="{{ article.image | img_url }}" />
     {{ article.title }}
   {% endfor %}
 
