@@ -41,6 +41,7 @@ Option 3 Selected
 <br/>
 
 <h1>Text Area</h1>
+{{ section.settings.liquid-textarea }}
 
 {% schema %}
   {
@@ -108,6 +109,11 @@ Option 3 Selected
     ],
     "default":"Option-2"
 
+    },
+    {
+      "id":"liquid-textarea",
+      "type": "textarea",
+      "label":"Text Area"
     }
   ],
     "templates": ["index", "page","product"],
