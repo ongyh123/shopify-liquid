@@ -1,11 +1,23 @@
 {
   "sections": {
+    "cb74054e-89db-4dcb-9498-72c9fc977551": {
+      "type": "blog-posts",
+      "settings": {
+        "posts-range": 3,
+        "new-blog": ""
+      }
+    },
     "680d3027-9061-408d-995b-897f89d82588": {
       "type": "liquid-ref",
+      "disabled": true,
       "settings": {
         "liquid-ref": "Shopify Reference",
         "liquid-checkbox": true,
-        "liquid-number": 100
+        "liquid-number": 100,
+        "liquid-radio": "option-1",
+        "liquid-range": 3,
+        "liquid-select": "Option-2",
+        "liquid-textarea": ""
       }
     },
     "main": {
@@ -203,6 +215,7 @@
     }
   },
   "order": [
+    "cb74054e-89db-4dcb-9498-72c9fc977551",
     "680d3027-9061-408d-995b-897f89d82588",
     "main",
     "1e60991f-dcd7-41bf-ab30-d4040f83863b",
