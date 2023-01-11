@@ -7,7 +7,7 @@
   {% comment %} Display articles based on range {% endcomment %}
 
   {% for article in blog.articles limit: section.settings.posts-range %}
-    <div class="grid__item medium-up--one-third">
+    <div style={{display: grid, grid-template-columns: 1fr 1fr 1fr}}>
       <div>
         <a href="{{ article.url }}">
           <img src="{{ article.image | img_url: '500x' }}" />
